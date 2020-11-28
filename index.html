@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+
+  <title>Backpackwala - Travelling website</title>
+</head>
+<body>
+
+  <nav class="navbar background-nav h-nav">
+    <ul class="navList v-nav">
+      <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
+     <li><a href="#home">Home</a></li>
+     <li><a href="#trips">Trips</a></li>
+     <li><a href="#about">About</a></li>
+     <li><a href="#contact">Contact</a></li>
+    </ul>
+ 
+ 
+    <div class="rightNav v-nav">
+    
+      <input type="text" name="search" id="search" placeholder="Search">
+        <button class="btn">Search</button>
+         
+
+    </div>
+
+    <div class="burger">
+      <div class="lines"></div>
+      <div class="lines1"></div>
+      <div class="lines2"></div>
+    </div>
+  </nav>
+
+
+  <section class="background firstsection" id="home">
+    <div class="box-main">
+      <div class="firsthalf">
+      <p class="bold-text">Let's Travel...</p>
+
+      <p class="text">We are here to travel the whole world.Those people are addicted with travelling,then you are in right place.It is the biggest travel Group of Bangladesh...</p></div>
+           <div class="secondhalf">
+             <img src="img/logo.jpg" alt="logo">
+           </div>
+
+    </div>
+
+
+  </section>
+
+  <section class="section sec-resp" id="trips">
+    <div class="paras">
+<p class="bold-text">Sylhet tour
+</p>
+
+<p class="text">Sylhet is a bud district with two leaves full of amazing natural beauty. Located in the northeast of Bangladesh, this ancient town is rich in forest, mineral and fishery resources and is adorned with natural beauty. Apart from its natural beauty, Sylhet has a famous history. Different tribals living in Sylhet have different languages ​​and cultures. Tea Gardens, Jaflong, Ratargul Jalaban, Hakaluki Haor, Lalakhal, Bholaganj, Bichnakandi, Tamabil, hills, springs, Sylhet is one of the most diverse tourist city in the country.</p>
+</div>
+<div class="tumbnil">
+  <img src="https://www.backpackwala.com/wp-content/uploads/2020/05/Untitled-1-01-1-870x555.jpg" alt="SYLHET" class="syl">
+</div>
+  </section>
+  
+    <section class="section section-right sec-resp">
+    <div class="paras">
+<p class="bold-text b-t-resp">Sajek Valley
+</p>
+
+<p class="text">Clouds, mountains and green everywhere in Saje. Sunrise and sunset can be given from here. You can trek from Ruilui Para in Sajek to Kanlak Hill. Kanlak is the highest peak of Sajak. On the way to Kangla, one can see the great hills of the Mizoram border, the way of life of the tribals, and the clouds all around. Tribal festivals are held here at certain times of the year and various aspects of their culture can be enjoyed.</p>
+</div>
+<div class="tumbnil">
+  <img src="https://www.backpackwala.com/wp-content/uploads/2020/04/Untitled-1-01-01-01-01-01-680x500.jpg" alt="SYLHET" class="syl">
+</div>
+  </section>
+
+    <section class="section sec-resp">
+    <div class="paras">
+<p class="bold-text">Sylhet tour
+</p>
+
+<p class="text">It's about our Sylhet.Sylhet is called the lend of tea.Our team have been travel there.It's about our Sylhet.Sylhet is called the lend of tea.Our team have been travel there.It's about our Sylhet.Sylhet is called the lend of tea.Our team have been travel there.It's about our Sylhet.Sylhet is called the lend of tea.Our team have been travel there.It's about our Sylhet.Sylhet is called the lend of tea.Our team have been travel there.</p>
+</div>
+<div class="tumbnil">
+  <img src="img/syl.jpg" alt="SYLHET" class="syl">
+</div>
+  </section>
+
+  <section class="contact" id="contact">
+  <div class="form">
+    <h1>Contact Us</h1>
+     <input class="input-info" type="text" name="Name" id="name" placeholder="Full name">
+     <input class="input-info" type="phone" id="phn" placeholder="Phone number">
+     <input class="input-info" type="email" name="Email" id="mail" placeholder="Email">
+     <textarea class="input-info textarea" name="Message" id="message" placeholder="Elleborate your concern"></textarea>
+
+
+  </div>
+
+
+  </section>
+  <footer class="container footer">
+    <hr>
+    <p>2020 Copyright.All right reserved</p>
+
+
+         <br><div style="text-align: center;"><script language="JavaScript">
+var text="(-=This site Design & Devolop by Rayhan mahmud=-)";
+var delay=30;
+var currentChar=1;
+var destination="[none]";
+function type()
+{
+//if (document.all)
+{
+var dest=document.getElementById(destination);
+if (dest)// && dest.innerHTML)
+{
+dest.innerHTML=text.substr(0, currentChar)+"<blink>_</blink>";
+currentChar++;
+if (currentChar>text.length)
+{
+currentChar=1;
+setTimeout("type()", 5000);
+}
+else
+{
+setTimeout("type()", delay);
+}
+}
+}
+}
+function startTyping(textParam, delayParam, destinationParam)
+{
+text=textParam;
+delay=delayParam;
+currentChar=1;
+destination=destinationParam;
+type();
+}
+</script>
+<b><div id="textDestination" class="java"></div></b>
+
+
+<script language="JavaScript">
+javascript:startTyping(text, 50, "textDestination");
+</script></div>
+
+  </footer>
+
+  <script src="css/resp.js"></script>
+</body>
+</html>
