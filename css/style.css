@@ -1,0 +1,266 @@
+
+* {
+  
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  padding: 6px;
+  
+}
+.navList {
+  background-color:;
+  width: 70%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navList li {
+  padding: 6px 50px;
+
+  
+}
+
+.navList li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+ font-family: 'Ubuntu', sans-serif;
+ 
+}
+
+.navList li a:hover {
+  text-decoration: none;
+  color: gray;
+  
+}
+
+.rightNav {
+  width: 30%;
+  display: flex;
+  text-align: right;
+  padding: 0 25px;
+}
+  
+  .burger {
+    padding: 10px;
+    display: none;
+  }
+  .lines {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    margin: 10px 0px;
+  }
+  .lines1 {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    margin: 10px 0px;
+  }
+  .lines2 {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    margin: 10px 0px;
+  }
+
+.btn {
+   padding: 5px 15px;
+  border: 2px solid #bbbbbb;
+  border-radius: 6px;
+  cursor: pointer;
+   background: none;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  margin: 5px 0px;
+  width: 100px;
+  
+}
+
+.btn:hover {
+  background-color: blueviolet;
+  /* border: 2px solid #757575; */
+}
+
+.logo {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+#search {
+padding: 8px;
+  border: 2px solid #bbbbbb;
+  border-radius: 6px;
+  margin: 5px 0px;
+}
+.background {
+background: rgba(0, 0, 0, 0.5) url('../img/img1.jpg');
+background-size: cover;
+background-blend-mode: darken;
+}
+.background-nav{
+background: rgba(0, 0, 0, 0.8) url('../img/img1.jpg');
+background-size: cover;
+background-blend-mode: darken;
+}
+
+.box-main {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: 900px;
+ margin: auto;
+ color: white;
+ 
+ height: 80%;
+ 
+}
+.firstsection {
+  height: 100vh;
+
+}
+.firsthalf {
+  width:80%;
+  justify-content: center;
+  
+  display: flex;
+  flex-direction: column;
+}
+.secondhalf {
+  width: 30%;
+}
+.secondhalf img {
+    width: 70%;
+    border: 3px solid;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.bold-text {
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.text {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.section {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+} 
+.syl {
+  width:280px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.paras {
+  padding: 8px 20px;
+}
+
+.section-right {
+  flex-direction: row-reverse;
+}
+
+.contact {
+  height: 500px;
+  background-color:#f0f0ef;
+}
+.form {
+  max-width: 800px;
+  margin: auto;
+}
+.input-info {
+  width: 100%;
+  border: 2px solid rgb(153, 151, 151);
+  border-radius: 5px;
+  margin-top: 12px;
+  padding: 6px 6px;
+   font-size: 18px;
+  font-family:  'Tahoma' , Geneva, Verdana, sans-serif;
+  
+}
+.contact h1 {
+  text-align: center;
+  padding: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+ color: #7f7f8e;
+
+}
+.textarea {
+  height: 180px;
+  font-size: 20px;
+  font-family:  'Tahoma' , Geneva, Verdana, sans-serif;
+}
+.footer {
+  height: 60px;
+ background: rgba(0,0,0, 0.6) url('../img/img1.jpg');
+background-size: cover;
+background-blend-mode: darken;
+}
+.footer hr {
+  border: 2px solid #bbb8b8;
+}
+  
+
+.footer p {
+text-align: center;
+color: #bbb8b8;
+font-family: sans-serif;
+padding: 4px;
+letter-spacing: 2px;
+font-size: 15px;
+
+}
+
+.java{
+  color:rgb(150, 148, 148);
+  background-color: none;
+  font-size: 20px; 
+  padding:2px; 
+  margin-top: -20px;
+  font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+  font-weight: 54  0;
+}
