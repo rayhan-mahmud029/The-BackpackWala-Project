@@ -1,8 +1,8 @@
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 600px){
 
-  .navbar {
+
+ .navbar {
     flex-direction: column;
-    /* height: 300px; */
     transition: all 0.8s ease-in-out;
     height: 400px;
     
@@ -26,7 +26,7 @@
 
  .h-nav{
    height: 45px;
-    /* transition: all 0.8s ease-in-out; */
+   transition: all 0.8s ease-in-out; 
  }
 
  .v-nav {
@@ -36,54 +36,73 @@
  
  .btn {
    font-size: 12px;
-   /* width: 60px; */
+   width: 60px; 
    padding: 5px 10px;
  }
   
  #search {
    padding: 5px;
    
+ }  
+ .syl{
+   width: 200px;
+   margin-top: 20px ;
  }
-
- .bold-text {
-   font-size: 28px;
+ 
+ .s3{
+   flex-direction: column;
  }
- .text {
-   font-size: 14px;
- }
- .box-main {
-   /* flex-direction: column-reverse;  */
-   height: 400px;
-   /* flex-wrap: wrap-reverse; */
- }
- .firstsection {
-   height: 400px;
- }
- /* .secondhalf img {
-
-    width: 100px;
-    border: 3px solid;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
- } */ */
-    
- .sec-resp {
-   display: flex;
+ .s4{
    flex-direction: column;
  }
 
- .b-t-resp {
-   text-align: right;
- }
+ .mainContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "s1"
+                       "s2"
+                       "s3"
+                       "s4"
+                       "s5"
+                       "s6";
+  grid-template-rows: 3em 25em 25em 25em 30em 2.5em;
+}
  
- .syl {
-   width: 250px;
-   height: 140px;
+
+.footer p{
+  font-size: 8px;
+}
+.java{
+  font-size: 11px;
+}
+
+
+ .bold-text {
+   font-size: 18px;
+ }
+ .text {
+   font-size: 11px;
  }
  .paras {
-   padding: 10px 30px;
-   margin-top: 90px;
+   padding: 20px;
+ }
+ .firstsection{
+   height: 60vh;
  }
 
+ 
+.section {
+  flex-direction: column;
+}
+
+
+ .box-main {
+   margin: 0px 20px;
+
+}  
+}
+@media only screen and (max-width: 380px){
+ .firstsection{
+   height: 55vh;
+ }
 }
