@@ -1,8 +1,7 @@
-
-* {
-  
+*{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -15,8 +14,9 @@
   padding: 6px;
   
 }
+
+
 .navList {
-  background-color:;
   width: 70%;
   list-style: none;
   display: flex;
@@ -150,8 +150,7 @@ background-blend-mode: darken;
  
 }
 .firstsection {
-  height: 100vh;
-
+  height: 600px;
 }
 .firsthalf {
   width:80%;
@@ -306,6 +305,4 @@ font-size: 15px;
 }
 .s6{
   grid-area: s6;
-  
-
 }

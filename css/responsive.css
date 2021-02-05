@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
 
 
  .navbar {
@@ -87,7 +87,7 @@
    padding: 20px;
  }
  .firstsection{
-   height: 60vh;
+   height: 450px;
  }
 
  
@@ -100,9 +100,163 @@
    margin: 0px 20px;
 
 }  
+
+.form{
+  max-width: 300px;
+  margin: auto;
 }
-@media only screen and (max-width: 380px){
- .firstsection{
-   height: 55vh;
+.input-info{
+  font-size: 12px
+}
+
+.contact h1{
+  font-size: 30px;
+}
+
+.nav-container{
+  grid-template-columns: 1fr;
+  grid-template-rows: 3em 15em 15em 8em;
+  grid-template-areas: 
+                       "navbar"
+                       "left-column"
+                       " right-column"
+                       "bottom";
+}
+
+.p-img{
+  height: 120px;
+  width: 120px;
+}
+h6{
+  font-size: 25px;
+}
+h5{
+  font-size: 22px;
+}
+h4{
+  font-size: 15px;
+}
+h3{
+  font-size: 20px;
+}
+.left-column p{
+  font-size: 11px;
+}
+.preview{
+  width: 160px;
+  height: 120px;
+}
+.preview p{
+  font-size: 12px;
+}
+#preview-background{
+  width: 160px;
+  height: 120px;
+}
+.social-png img{
+  max-width: 30px;
+  max-height: 30px;
+  margin: 10px 5px;
+  border: 2px dashed black;
+}
+.social-png-div{
+  margin-top: 40px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 800px) and (min-width:500px){
+ 
+  
+
+ .navbar {
+    flex-direction: column;
+    transition: all 0.8s ease-in-out;
+    height: 400px;
+    
+  }
+  .navList{
+    flex-direction: column;
+  
+  }
+  .navList li{
+    padding: 10px 30px;
+    margin-top: 20px ;
+  }
+  .rightNav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .burger{
+   display: block;
  }
+
+ .h-nav{
+   height: 45px;
+   transition: all 0.8s ease-in-out; 
+ }
+
+ .v-nav {
+   opacity: 0;
+    transition: all 0.8s ease-in-out;
+ }
+ 
+ .btn {
+   font-size: 12px;
+   width: 60px; 
+   padding: 5px 10px;
+ }
+  
+ #search {
+   padding: 5px;
+   
+ }  
+.nav-container{
+  grid-template-columns: 1fr;
+  grid-template-rows: 3em 15em 15em 8em;
+  grid-template-areas: 
+                       "navbar"
+                       "left-column"
+                       " right-column"
+                       "bottom";
+}
+.p-img{
+  height: 140px;
+  width: 140px;
+}
+h6{
+  font-size: 25px;
+}
+h5{
+  font-size: 25px;
+}
+h4{
+  font-size: 18px;
+}
+.left-column p{
+  font-size: 14px;
+}
+.preview{
+  width: 230px;
+  height: 180px;
+}
+#preview-background{
+  width: 230px;
+  height: 180px;
+}
+
+}
+
+
+@media only screen and (max-width: 350px){
+ .firstsection{
+   height: 430;
+ }
+ .form{
+   max-width: 260px;
+ }
+
 }
