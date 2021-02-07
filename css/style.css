@@ -4,6 +4,7 @@
   scroll-behavior: smooth;
 }
 
+
 .navbar {
   display: flex;
   align-items: center;
@@ -12,7 +13,6 @@
   top: 0;
   cursor: pointer;
   padding: 6px;
-  
 }
 
 
@@ -279,9 +279,8 @@ font-size: 15px;
 
 .s1{
   grid-area: s1;
-
-
-
+  position: sticky;
+  top: 0;
 }
 .s2{
   grid-area: s2;
